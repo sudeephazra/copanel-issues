@@ -30,31 +30,18 @@ Use the following format when creating a new issue:
 Use labels such as `bug`, `enhancement`, `priority-high`, `priority-medium`, `priority-low`, etc., to categorize and prioritize issues.
 
 ## Examples
-### Example Issue 1:
+### Example Issue:
 - **Title**: Dropdown menu in the dashboard does not load options
 - **Description**:
 - **Summary**: The dropdown menu on the dashboard page fails to display options.
 - **Steps to Reproduce**:
-  - Log into the COPanel platform.
+  - Log into the CoPanel platform.
   - Navigate to the dashboard.
-  - Click on the dropdown menu labeled "Project Selection."
-- **Expected Result**: The dropdown should display a list of available projects.
+  - Click on the "CoPanel" icon on the status bar 
+- **Expected Result**: The option should display a list of available projects.
 - **Actual Result**: The dropdown appears blank with no options.
 - **Environment**: Windows 10, Chrome v114.0
 - **Additional Context**: Console shows error: TypeError: Cannot read property 'map' of undefined.
-
-### Example Issue 2:
-#### Title: Error message when saving changes in user profile
-####  Description:
-- **Summary**: Attempting to save profile changes results in an error message.
-- **Steps to Reproduce**:
-  - Navigate to "User Profile" from the settings menu.
-  - Update the "Display Name" field.
-  - Click "Save."
-- **Expected Result**: Profile changes should save successfully without any errors.
-- **Actual Result**: "An unexpected error occurred" message appears, and changes are not saved.
-- **Environment**: macOS Ventura, Safari v17.0
-- **Additional Context**: This issue started occurring after the latest update on Oct 31.
 
 ## Contributing to Defect Tracking
 Everyone is welcome to contribute by reporting defects, adding detailed information to existing issues, or suggesting solutions. Please adhere to the issue template and guidelines to keep this repository organized and effective.
